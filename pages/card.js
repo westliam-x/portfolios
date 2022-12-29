@@ -1,14 +1,13 @@
 import Image from "next/image";
-import crypto from '../public/crypto.png';
-import housing from '../public/housing.png';
-import html from '../public/html-project.png';
-import codeGenerator from '../public/codeGenerator.png';
+import code from '../public/code.png';
+import design from '../public/design.png';
+import file from '../public/file.png';
 function Card(){
     return(
     <div className="lg:flex gap-10">
         <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-200  dark: text-gray-800">
         <div >
-       <Image src={html} width="100%" />
+       <Image src={design} width="100%" className=" m-auto" />
        <h3 className=" text-lg font-medium pt-8 pb-2">Exquisite UI Designs</h3>
        <p className="py-2">Creating beautiful UI designs to satisfy your needs and the needs of your clients</p>
         <h4 className="text-teal-600 py-4">Design tools I use:</h4>
@@ -17,9 +16,9 @@ function Card(){
         <p className="text-grey-800 py-1">Paint 3D</p>
     </div>
     </div>
-    <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark: bg-slate-200 dark: text-gray-800">
+    <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-200 dark: text-gray-800">
         <div >
-       <Image src={housing} width="100%" />
+       <Image src={code} width="100%" className=" m-auto" />
        <h3 className=" text-lg font-medium pt-8 pb-2">Elegant Code</h3>
        <p className="py-2">You have an idea for your next web project? I can make it a reality </p>
         <h4 className="text-teal-600 py-4">Coding tools I use:</h4>
@@ -30,7 +29,7 @@ function Card(){
     </div>
     <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-200 dark: text-gray-800">
         <div >
-       <Image src={codeGenerator} width="100%" />
+       <Image src={file} width="100%" className=" m-auto"  />
        <h3 className=" text-lg font-medium pt-8 pb-2">Professional Documentation</h3>
        <p className="py-2">I can help with your next big project, collaborating and helping you with your documentation</p>
         <h4 className="text-teal-600 py-4">Documents I hanle:</h4>

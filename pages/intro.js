@@ -1,4 +1,4 @@
-import {AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
+import {AiFillTwitterCircle, AiFillLinkedin, AiFillGithub, AiFillMail} from 'react-icons/ai';
 
 function Intro(){
     return(
@@ -14,6 +14,7 @@ function Intro(){
             <a className=' hover:text-blue-800' href="https://twitter.com/Westliam_x"><AiFillTwitterCircle/></a>
             <a className=' hover:text-blue-800'  href="https://www.linkedin.com/in/william-emelifonwu-27a7b51bb"><AiFillLinkedin/></a>
             <a className=' hover:text-blue-800'  href="https://github.com/westliam-x"> <AiFillGithub/></a>
+            <a className=' hover:text-blue-800'  href="mailto:emelifonwuw@gmail.com"> <AiFillMail/></a>
         </div>
     </div>
        
