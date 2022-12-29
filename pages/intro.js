@@ -11,7 +11,7 @@ function Intro(){
          </p>
         </div>
         <div className=' text-5xl justify-center gap-16 text-gray-600 flex'>
-            <a className=' hover:text-blue-800' href="https://twitter.com/Westliam_x"><AiFillTwitterCircle/></a>
+            {/* <a className=' hover:text-blue-800' href="https://twitter.com/Westliam_x"><AiFillTwitterCircle/></a> */}
             <a className=' hover:text-blue-800'  href="https://www.linkedin.com/in/william-emelifonwu-27a7b51bb"><AiFillLinkedin/></a>
             <a className=' hover:text-blue-800'  href="https://github.com/westliam-x"> <AiFillGithub/></a>
             <a className=' hover:text-blue-800'  href="mailto:emelifonwuw@gmail.com"> <AiFillMail/></a>
