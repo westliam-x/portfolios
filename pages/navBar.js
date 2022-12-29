@@ -9,7 +9,8 @@ function Nav(){
                 <BsFillMoonStarsFill className=' cursor-pointer text-xl'/>
                 </li>
             <li>
-                <a className=' bg-blue-700 text-white px-4 py-2 rounded-md ml-8' href="../public/resume.pdf">
+                <a className=' bg-blue-700 text-white px-4 py-2 rounded-md ml-8' href="/westliam resume.png" download> 
+  
                     Resume
                     </a>
                     </li>
