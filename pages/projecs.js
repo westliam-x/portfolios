@@ -7,7 +7,7 @@ import react from '../public/React.png';
 import shoe from '../public/shoe.png';
 import final from '../public/final.png'
 import login from '../public/login.png'
-import management from '../public/management.png'
+import management from '../public/Management.png'
 import crms from '../public/crms.png'
 function Portfolio(){
     return(
