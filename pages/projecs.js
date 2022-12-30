@@ -9,7 +9,7 @@ function Portfolio(){
     return(
     <div>
         <div >
-        <h3 className="text-3xl py-1">Projects I am proud of...</h3>
+        <h3 className=" lg:text-4xl text-3xl py-4 text-center"> <b>Projects I am proud of</b> </h3>
         <p className="text-md py-2 leading-8 text-gray-800  dark:text-white">
             These are just a few finished projects that I built from scratch with
              <span className="text-teal-500"> beautiful UI designs, </span>
