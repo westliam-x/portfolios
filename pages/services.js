@@ -8,8 +8,8 @@ function Services(){
             you would be recieving quality at it's best
         </p>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-            I offer a variety of services from <span className="text-blue-600"> website development </span>  to 
-            <span className="text-blue-600"> web application development </span>
+            I offer a variety of services from <span className="text-teal-500"> website development </span>  to 
+            <span className="text-teal-500"> web application development </span>
              for businesses of different sizes.
         </p>
         
