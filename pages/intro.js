@@ -6,7 +6,7 @@ function Intro(){
         <div className=' text-center px-2 py-10'>
         <h2 className=' text-2xl py-2 text-teal-500 font-medium md:text-6xl'>William Emelifonwu</h2>
          <h3 className=' text-2xl py-2 md:text-3xl'>Frontend Developer</h3> 
-         <p className=' text-base py-5 leading-8 text-gray-800 md:text-xl max-w-1xl mx-auto dark:text-white'>
+         <p className=' text-base py-5 leading-8 text-gray-800  max-w-1xl mx-auto dark:text-white'>
             I create, design and develop the frontend of websites and web applications.
          Currently a freelancer, learning how to improve my skills anyway possible
          </p>

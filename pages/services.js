@@ -1,7 +1,7 @@
 
 function Services(){
     return(
-       <div className="dark:text-white" >
+       <div className="dark:text-white text-center"  >
         <h3 className="text-3xl py-1 text-center"> <b>Services I offer</b> </h3>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
             I come equipped with everything you need to provide your business with the internet prescence it deserves so you can rest assured that

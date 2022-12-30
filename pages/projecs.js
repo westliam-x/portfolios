@@ -14,7 +14,7 @@ function Portfolio(){
     <div>
         <div >
         <h3 className=" lg:text-4xl text-3xl py-4 text-center"> <b>Projects I am proud of</b> </h3>
-        <p className="text-md py-2 leading-8 text-gray-800  dark:text-white">
+        <p className="text-md py-2 leading-8 text-gray-800  dark:text-white text-center">
             These are just a few finished projects that I built from scratch with
              <span className="text-teal-500"> beautiful UI designs, </span>
              and a simple layout for easy navigation,
