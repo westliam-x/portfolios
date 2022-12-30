@@ -7,7 +7,7 @@ import file from '../public/file.ico'
 function Card(){
     return(
     <div className="lg:flex gap-16">
-        <div className="text-center dark:border-white border-solid border-l-2 border-t-2 shadow-lg p-10 rounded-xl my-10  dark:text-white">
+        <div className=" text-center dark:shadow-slate-400 shadow-md transition-shadow p-10 rounded-xl my-10  dark:text-white">
         <div >
        {/* <Image src={design} width="100%" className=" m-auto" /> */}
        {/* <FontAwesomeIcon icon="fa-solid fa-pen-ruler" /> */}
@@ -26,7 +26,9 @@ function Card(){
         <p className="text-grey-800 py-1">Paint 3D</p>
     </div>
     </div>
-<div className=" text-center dark:border-white border-l-2 border-t-2 shadow-xl p-10 rounded-xl my-10  dark:text-white">
+
+
+<div className=" text-center dark:shadow-slate-400 shadow-md transition-shadow p-10 rounded-xl my-10  dark:text-white">
         <div >
        {/* <Image src={code} width="100%" className=" m-auto  dark: text-white" /> */}
 {/*        
@@ -41,7 +43,7 @@ function Card(){
     </div>
     </div>
 
-    <div className=" text-center dark:border-white border-solid border-l-2 border-t-2 shadow-lg p-10 rounded-xl my-10  dark:text-white">
+    <div className=" text-center dark:shadow-slate-400 shadow-md transition-shadow p-10 rounded-xl my-10  dark:text-white">
         <div >
        {/* <Image src={file}  width="40%" className="dark:text-white m-auto"  /> */}
        {/* <HiOutlineDocumentText  className=' lg:ml-32' size={70} /> */}

@@ -5,6 +5,10 @@ import html from '../public/html-project.png';
 import codeGenerator from '../public/codeGenerator.png';
 import react from '../public/React.png';
 import shoe from '../public/shoe.png';
+import final from '../public/final.png'
+import login from '../public/login.png'
+import management from '../public/management.png'
+import crms from '../public/crms.png'
 function Portfolio(){
     return(
     <div>
@@ -72,6 +76,42 @@ function Portfolio(){
 
         <div className=" basis-1/3 flex-1">
             <Image src={shoe} 
+                className="rounded-lg object-cover" 
+                width={"100%"} 
+                height={"100%"} 
+                layout="responsive"
+            />
+        </div>
+
+        <div className=" basis-1/3 flex-1">
+            <Image src={final} 
+                className="rounded-lg object-cover" 
+                width={"100%"} 
+                height={"100%"} 
+                layout="responsive"
+            />
+        </div>
+
+        <div className=" basis-1/3 flex-1">
+            <Image src={login} 
+                className="rounded-lg object-cover" 
+                width={"100%"} 
+                height={"100%"} 
+                layout="responsive"
+            />
+        </div>
+
+        <div className=" basis-1/3 flex-1">
+            <Image src={management} 
+                className="rounded-lg object-cover" 
+                width={"100%"} 
+                height={"100%"} 
+                layout="responsive"
+            />
+        </div>
+
+        <div className=" basis-1/3 flex-1">
+            <Image src={crms} 
                 className="rounded-lg object-cover" 
                 width={"100%"} 
                 height={"100%"} 

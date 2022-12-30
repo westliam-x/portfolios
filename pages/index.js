@@ -33,8 +33,10 @@ export default function Home() {
             </li>
          </ul>
        </div>
-       <About/>
-          <Intro/>
+       <div>
+        <About/>
+        <Intro/>
+       </div>
         </section>
         <section>
           <Services/>
