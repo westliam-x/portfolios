@@ -5,8 +5,8 @@ import html from '../public/html-project.png';
 import codeGenerator from '../public/codeGenerator.png';
 import react from '../public/React.png';
 import shoe from '../public/shoe.png';
-import final from '../public/final.png'
-import login from '../public/login.png'
+import Fylo from '../public/Fylo.png'
+import billing from '../public/billing.png'
 import management from '../public/Management.png'
 import crms from '../public/crms.png'
 function Portfolio(){
@@ -16,9 +16,9 @@ function Portfolio(){
         <h3 className=" lg:text-4xl text-3xl py-4 text-center"> <b>Projects I am proud of</b> </h3>
         <p className="text-md py-2 leading-8 text-gray-800  dark:text-white text-center">
             These are just a few finished projects that I built from scratch with
-             <span className="text-blue-500"> beautiful UI designs, </span>
+             <span className="text-teal-500"> beautiful UI designs, </span>
              and a simple layout for easy navigation,
-            <span className="text-blue-500"> elegant code </span>
+            <span className="text-teal-500"> elegant code </span>
            for easy maintainance and reusability, meeting the requirements of clients.
         </p>
         
@@ -84,7 +84,7 @@ function Portfolio(){
         </div>
 
         <div className=" basis-1/3 flex-1">
-            <Image src={final} 
+            <Image src={billing} 
                 className="rounded-lg object-cover" 
                 width={"100%"} 
                 height={"100%"} 
@@ -93,7 +93,7 @@ function Portfolio(){
         </div>
 
         <div className=" basis-1/3 flex-1">
-            <Image src={login} 
+            <Image src={Fylo} 
                 className="rounded-lg object-cover" 
                 width={"100%"} 
                 height={"100%"} 
