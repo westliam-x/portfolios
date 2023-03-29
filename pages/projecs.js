@@ -12,7 +12,7 @@ import crms from '../public/crms.png'
 import touchdown from '../public/touchdown.png'
 import restaurant from '../public/restaurant.png'
 import ecomm from '../public/ecomm.png'
-import maykollyextra from '../public/maykollyextra.png'
+import makollyextra from '../public/makollyextra.png'
 function Portfolio(){
     return(
     <div>
@@ -118,7 +118,7 @@ function Portfolio(){
         </div>
 
         <div className=" basis-1/3 flex-1">
-            <Image src={maykollyextra} 
+            <Image src={makollyextra} 
                 className="rounded-lg object-cover" 
                 width={"100%"} 
                 height={"100%"} 
