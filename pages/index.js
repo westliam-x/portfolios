@@ -27,7 +27,7 @@ export default function Home() {
                 className=' cursor-pointer text-xl'/>
                 </li>
             <li>
-            <a className='  bg-teal-600 text-white px-4 py-2 rounded-md ml-8' href="/westliam resume.png" download>
+            <a className='  bg-teal-600 text-white px-4 py-2 rounded-md ml-8' href="/resumme.pdf" download>
                   Resume
               </a>
             </li>
