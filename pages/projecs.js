@@ -36,17 +36,27 @@ function Portfolio(){
         </div>
 
             <div className=" basis-1/3 flex-1">
-                <Image src={makolly-2} 
+            <Image src={touchdown} 
+                className="rounded-lg object-cover" 
+                width={"100%"} 
+                height={"100%"} 
+                layout={responsive}
+            />
+
+        </div>
+        
+        <div className=" basis-1/3 flex-1">
+            <Image src={crypto} 
                 className="rounded-lg object-cover" 
                 width={"100%"} 
                 height={"100%"} 
                 layout="responsive"
-              />
+            />
 
-            </div>
-        
+        </div>
+
         <div className=" basis-1/3 flex-1">
-            <Image src={crypto} 
+            <Image src={restaurant} 
                 className="rounded-lg object-cover" 
                 width={"100%"} 
                 height={"100%"} 
@@ -76,14 +86,14 @@ function Portfolio(){
         </div>
         
             <div className=" basis-1/3 flex-1">
-                <Image src={Maykolly} 
+            <Image src={ecomm} 
                 className="rounded-lg object-cover" 
                 width={"100%"} 
                 height={"100%"} 
                 layout="responsive"
-              />
+            />
 
-            </div>
+        </div>
 
         <div className=" basis-1/3 flex-1">
             <Image src={react} 
@@ -104,6 +114,16 @@ function Portfolio(){
         </div>
 
         <div className=" basis-1/3 flex-1">
+            <Image src={maykollyextra} 
+                className="rounded-lg object-cover" 
+                width={"100%"} 
+                height={"100%"} 
+                layout="responsive"
+            />
+
+        </div>
+
+        <div className=" basis-1/3 flex-1">
             <Image src={billing} 
                 className="rounded-lg object-cover" 
                 width={"100%"} 
@@ -121,14 +141,6 @@ function Portfolio(){
             />
         </div>
 
-        <div className=" basis-1/3 flex-1">
-            <Image src={touchdown} 
-                className="rounded-lg object-cover" 
-                width={"100%"} 
-                height={"100%"} 
-                layout="responsive"
-            />
-        </div>
 
         <div className=" basis-1/3 flex-1">
             <Image src={management} 
@@ -139,14 +151,6 @@ function Portfolio(){
             />
         </div>
 
-        <div className=" basis-1/3 flex-1">
-            <Image src={ecomm} 
-                className="rounded-lg object-cover" 
-                width={"100%"} 
-                height={"100%"} 
-                layout="responsive"
-            />
-        </div>
 
         <div className=" basis-1/3 flex-1">
             <Image src={crms} 
