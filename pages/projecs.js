@@ -12,7 +12,7 @@ import crms from '../public/crms.png'
 import touchdown from '../public/touchdown.png'
 import restaurant from '../public/restaurant.png'
 import ecomm from '../public/ecomm.png'
-import maykollyextra from '../public/crms.png'
+import maykollyextra from '../public/maykollyextra.png'
 function Portfolio(){
     return(
     <div>
