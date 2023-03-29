@@ -9,6 +9,10 @@ import Fylo from '../public/Fylo.png'
 import billing from '../public/billing.png'
 import management from '../public/Management.png'
 import crms from '../public/crms.png'
+import touchdown from '../public/touchdown.png'
+import restaurant from '../public/restaurant.png'
+import ecomm from '../public/ecomm.png'
+import maykollyextra from '../public/crms.png'
 function Portfolio(){
     return(
     <div>
