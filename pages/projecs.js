@@ -60,7 +60,7 @@ function Portfolio(){
             </div>
         </a>
 
-
+<a href="http://westliam-projects.buzz/maykolly/index.php">
         <div className=" basis-1/3 flex-1">
             <Image src={restaurant} 
                 className="rounded-lg object-cover" 
@@ -68,7 +68,7 @@ function Portfolio(){
                 height={"100%"} 
                 layout="responsive"
             />
-
+                    </a>
         </div>
         
         <div className=" basis-1/3 flex-1">
