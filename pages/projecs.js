@@ -27,7 +27,7 @@ function Portfolio(){
         
         
         
-       <a href = "https://westliam-x.github.io/cake/">
+       <a href = "https://westliam-x.github.io/bakery/">
             <div className=" basis-1/3 flex-1">
                 <Image src={cake} 
                     className="rounded-lg object-cover" 
