@@ -36,7 +36,7 @@ function Portfolio(){
                     layout="responsive"
                 />
             </div>
-        <a/>
+        </a>
                         
                         
         
@@ -85,7 +85,7 @@ function Portfolio(){
                     layout="responsive"
                 />
             </div>
-        <a/>
+        </a>
        
          <a href = "http://westliam-projects.buzz/southernview/">
             <div className=" basis-1/3 flex-1">
@@ -96,7 +96,7 @@ function Portfolio(){
                     layout="responsive"
                 />
             </div>
-         <a/>
+         </a>
         
                         
         <a href = "http://westliam-projects.buzz/queensplastic/">                 
@@ -108,7 +108,7 @@ function Portfolio(){
                     layout="responsive"
                 />
             </div>
-        <a/>
+        </a>
 
         <a href="http://westliam-projects.buzz/crms/">
             <div className=" basis-1/3 flex-1">
@@ -119,7 +119,7 @@ function Portfolio(){
                     layout="responsive"
                 />
             </div>
-        <a/>
+        </a>
 
         <a href="https://westliam-x.github.io/fylo/">
             <div className=" basis-1/3 flex-1">
@@ -130,7 +130,7 @@ function Portfolio(){
                     layout="responsive"
                 />
             </div>
-        <a/>
+        </a>
 
         <a href="https://westliam-x.github.io/abel-tee/">
             <div className=" basis-1/3 flex-1">
@@ -141,7 +141,7 @@ function Portfolio(){
                     layout="responsive"
                 />
             </div>
-        <a/>
+        </a>
                         
                         
        </div>
