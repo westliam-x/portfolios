@@ -27,7 +27,7 @@ function Portfolio(){
         
         
         
-       <a href="https://westliam-x.github.io/cake/">
+       <a href = "https://westliam-x.github.io/cake/">
             <div className=" basis-1/3 flex-1">
                 <Image src={cake} 
                     className="rounded-lg object-cover" 
@@ -40,7 +40,7 @@ function Portfolio(){
                         
                         
         
-       <a href="https://westliam-x.github.io/crypto-landing-page/">
+       <a href = "https://westliam-x.github.io/crypto-landing-page/">
             <div className=" basis-1/3 flex-1">     
                 <Image src={crypto} 
                     className="rounded-lg object-cover" 
@@ -53,7 +53,7 @@ function Portfolio(){
 
 
 
-        <a href="https://westliam-x.github.io/maykolly-african-cusine/">
+        <a href = "https://westliam-x.github.io/maykolly-african-cusine/">
             <div className=" basis-1/3 flex-1">
                 <Image src={maykolly} 
                     className="rounded-lg object-cover" 
@@ -65,7 +65,7 @@ function Portfolio(){
         </a>
 
 
-        <a href="http://westliam-projects.buzz/maykolly/">
+        <a href = "http://westliam-projects.buzz/maykolly/">
             <div className=" basis-1/3 flex-1">
                 <Image src={restaurant} 
                     className="rounded-lg object-cover" 
@@ -76,7 +76,7 @@ function Portfolio(){
             </div>
         </a>
        
-        <a href="https://westliam-x.github.io/Aquine/">
+        <a href = "https://westliam-x.github.io/Aquine/">
             <div className=" basis-1/3 flex-1">
                 <Image src={housing} 
                     className="rounded-lg object-cover" 
@@ -87,7 +87,7 @@ function Portfolio(){
             </div>
         <a/>
        
-         <a href="http://westliam-projects.buzz/southernview/">
+         <a href = "http://westliam-projects.buzz/southernview/">
             <div className=" basis-1/3 flex-1">
                 <Image src={codeGenerator} 
                     className="rounded-lg object-cover" 
@@ -99,7 +99,7 @@ function Portfolio(){
          <a/>
         
                         
-        <a href="http://westliam-projects.buzz/queensplastic/">                 
+        <a href = "http://westliam-projects.buzz/queensplastic/">                 
             <div className=" basis-1/3 flex-1">
                 <Image src={ecomm} 
                     className="rounded-lg object-cover" 
