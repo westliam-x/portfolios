@@ -99,7 +99,7 @@ function Portfolio(){
          <a/>
         
                         
-        <a href"http://westliam-projects.buzz/queensplastic/">                 
+        <a href="http://westliam-projects.buzz/queensplastic/">                 
             <div className=" basis-1/3 flex-1">
                 <Image src={ecomm} 
                     className="rounded-lg object-cover" 
@@ -121,7 +121,7 @@ function Portfolio(){
             </div>
         <a/>
 
-        <a href"https://westliam-x.github.io/fylo/">
+        <a href="https://westliam-x.github.io/fylo/">
             <div className=" basis-1/3 flex-1">
                 <Image src={Fylo} 
                     className="rounded-lg object-cover" 
@@ -132,7 +132,7 @@ function Portfolio(){
             </div>
         <a/>
 
-        <a href"https://westliam-x.github.io/abel-tee/">
+        <a href="https://westliam-x.github.io/abel-tee/">
             <div className=" basis-1/3 flex-1">
                 <Image src={abel} 
                     className="rounded-lg object-cover" 
