@@ -49,15 +49,17 @@ function Portfolio(){
 
         </div>
         
-        <div className=" basis-1/3 flex-1">
-            <Image src={crypto} 
+        <a href="https://westliam-x.github.io/crypto-landing-page/">
+            <div className=" basis-1/3 flex-1">
+                <Image src={crypto} 
                 className="rounded-lg object-cover" 
                 width={"100%"} 
                 height={"100%"} 
                 layout="responsive"
-            />
+                />
+            </div>
+        </a>
 
-        </div>
 
         <div className=" basis-1/3 flex-1">
             <Image src={restaurant} 
