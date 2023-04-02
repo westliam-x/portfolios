@@ -25,7 +25,75 @@ function Portfolio(){
        </div>
        <div className=" flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
         
+        <a href = "http://westliam-projects.buzz/maykolly/">
+            <div className=" basis-1/3 flex-1">
+                <Image src={restaurant} 
+                    className="rounded-lg object-cover" 
+                    width={"100%"} 
+                    height={"100%"} 
+                    layout="responsive"
+                />
+            </div>
+        </a>
+       
+      
+       
+         <a href = "http://westliam-projects.buzz/southernview/">
+            <div className=" basis-1/3 flex-1">
+                <Image src={codeGenerator} 
+                    className="rounded-lg object-cover" 
+                    width={"100%"} 
+                    height={"100%"} 
+                    layout="responsive"
+                />
+            </div>
+         </a>
+
+  <a href = "https://westliam-x.github.io/Aquine/">
+            <div className=" basis-1/3 flex-1">
+                <Image src={housing} 
+                    className="rounded-lg object-cover" 
+                    width={"100%"} 
+                    height={"100%"} 
+                    layout="responsive"
+                />
+            </div>
+        </a>
+
+<a href = "https://westliam-x.github.io/maykolly-african-cusine/">
+            <div className=" basis-1/3 flex-1">
+                <Image src={maykolly} 
+                    className="rounded-lg object-cover" 
+                    width={"100%"} 
+                    height={"100%"} 
+                    layout="responsive"
+                />
+            </div>
+        </a>
         
+                        
+        <a href = "http://westliam-projects.buzz/queensplastic/">                 
+            <div className=" basis-1/3 flex-1">
+                <Image src={ecomm} 
+                    className="rounded-lg object-cover" 
+                    width={"100%"} 
+                    height={"100%"} 
+                    layout="responsive"
+                />
+            </div>
+        </a>
+
+        <a href="http://westliam-projects.buzz/crms/">
+            <div className=" basis-1/3 flex-1">
+                <Image src={crms} 
+                    className="rounded-lg object-cover" 
+                    width={"100%"} 
+                    height={"100%"} 
+                    layout="responsive"
+                />
+            </div>
+        </a>
+
         
        <a href = "https://westliam-x.github.io/bakery/">
             <div className=" basis-1/3 flex-1">
@@ -51,75 +119,6 @@ function Portfolio(){
             </div>
         </a>
 
-
-
-        <a href = "https://westliam-x.github.io/maykolly-african-cusine/">
-            <div className=" basis-1/3 flex-1">
-                <Image src={maykolly} 
-                    className="rounded-lg object-cover" 
-                    width={"100%"} 
-                    height={"100%"} 
-                    layout="responsive"
-                />
-            </div>
-        </a>
-
-
-        <a href = "http://westliam-projects.buzz/maykolly/">
-            <div className=" basis-1/3 flex-1">
-                <Image src={restaurant} 
-                    className="rounded-lg object-cover" 
-                    width={"100%"} 
-                    height={"100%"} 
-                    layout="responsive"
-                />
-            </div>
-        </a>
-       
-        <a href = "https://westliam-x.github.io/Aquine/">
-            <div className=" basis-1/3 flex-1">
-                <Image src={housing} 
-                    className="rounded-lg object-cover" 
-                    width={"100%"} 
-                    height={"100%"} 
-                    layout="responsive"
-                />
-            </div>
-        </a>
-       
-         <a href = "http://westliam-projects.buzz/southernview/">
-            <div className=" basis-1/3 flex-1">
-                <Image src={codeGenerator} 
-                    className="rounded-lg object-cover" 
-                    width={"100%"} 
-                    height={"100%"} 
-                    layout="responsive"
-                />
-            </div>
-         </a>
-        
-                        
-        <a href = "http://westliam-projects.buzz/queensplastic/">                 
-            <div className=" basis-1/3 flex-1">
-                <Image src={ecomm} 
-                    className="rounded-lg object-cover" 
-                    width={"100%"} 
-                    height={"100%"} 
-                    layout="responsive"
-                />
-            </div>
-        </a>
-
-        <a href="http://westliam-projects.buzz/crms/">
-            <div className=" basis-1/3 flex-1">
-                <Image src={crms} 
-                    className="rounded-lg object-cover" 
-                    width={"100%"} 
-                    height={"100%"} 
-                    layout="responsive"
-                />
-            </div>
-        </a>
 
         <a href="https://westliam-x.github.io/fylo/">
             <div className=" basis-1/3 flex-1">
