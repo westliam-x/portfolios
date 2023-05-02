@@ -9,6 +9,7 @@ import cake from '../public/cake.png'
 import restaurant from '../public/restaurant.png'
 import ecomm from '../public/ecomm.png'
 import crms from '../public/crms.png'
+import connected from '../public/connected.png'
 function Portfolio(){
     return(
     <div>
@@ -24,6 +25,20 @@ function Portfolio(){
         
        </div>
        <div className=" flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+        
+        
+        <a href = "http://www.connected.net.ng/">
+            <div className=" basis-1/3 flex-1">
+                <Image src={connected} 
+                    className="rounded-lg object-cover" 
+                    width={"100%"} 
+                    height={"100%"} 
+                    layout="responsive"
+                />
+            </div>
+        </a>
+        
+        
         
         <a href = "http://westliam-projects.buzz/maykolly/">
             <div className=" basis-1/3 flex-1">
