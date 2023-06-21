@@ -5,7 +5,6 @@ import maykolly from '../public/maykolly.png';
 import codeGenerator from '../public/codeGenerator.png';
 import Fylo from '../public/Fylo.png'
 import abel from '../public/abel-tee.png'
-import cake from '../public/cake.png'
 import adoption from '../public/adopt.png'
 import ecomm from '../public/ecomm.png'
 import crms from '../public/crms.png'
@@ -107,21 +106,7 @@ function Portfolio(){
                     layout="responsive"
                 />
             </div>
-        </a>
-
-        
-       <a href = "https://westliam-x.github.io/bakery/">
-            <div className=" basis-1/3 flex-1">
-                <Image src={cake} 
-                    className="rounded-lg object-cover" 
-                    width={"100%"} 
-                    height={"100%"} 
-                    layout="responsive"
-                />
-            </div>
-        </a>
-                        
-                        
+        </a>            
         
        <a href = "https://westliam-x.github.io/crypto-landing-page/">
             <div className=" basis-1/3 flex-1">     
