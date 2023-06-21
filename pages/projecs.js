@@ -6,7 +6,7 @@ import codeGenerator from '../public/codeGenerator.png';
 import Fylo from '../public/Fylo.png'
 import abel from '../public/abel-tee.png'
 import cake from '../public/cake.png'
-import adoption from '../public/adoption.png'
+import adoption from '../public/adopt.png'
 import ecomm from '../public/ecomm.png'
 import crms from '../public/crms.png'
 import connected from '../public/connected.png'
