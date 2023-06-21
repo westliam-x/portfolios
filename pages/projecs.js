@@ -6,7 +6,7 @@ import codeGenerator from '../public/codeGenerator.png';
 import Fylo from '../public/Fylo.png'
 import abel from '../public/abel-tee.png'
 import cake from '../public/cake.png'
-import restaurant from '../public/restaurant.png'
+import adoption from '../public/adoption.png'
 import ecomm from '../public/ecomm.png'
 import crms from '../public/crms.png'
 import connected from '../public/connected.png'
@@ -40,9 +40,9 @@ function Portfolio(){
         
         
         
-        <a href = "http://westliam-projects.buzz/maykolly/">
+        <a href = "https://pet-westliam-x.vercel.app/">
             <div className=" basis-1/3 flex-1">
-                <Image src={restaurant} 
+                <Image src={adoption} 
                     className="rounded-lg object-cover" 
                     width={"100%"} 
                     height={"100%"} 
