@@ -3,6 +3,7 @@ import crypto from '../public/crypto.png';
 import housing from '../public/housing.png';
 import maykolly from '../public/maykolly.png';
 import codeGenerator from '../public/codeGenerator.png';
+import commerce from '../public/tailindCommerce.png';
 import Fylo from '../public/Fylo.png'
 import abel from '../public/abel-tee.png'
 import adoption from '../public/adopt.png'
@@ -74,9 +75,9 @@ function Portfolio(){
             </div>
         </a>
 
-<a href = "https://westliam-x.github.io/maykolly-african-cusine/">
+<a href = "https://ecommerce-landing-page-6oan.vercel.app/">
             <div className=" basis-1/3 flex-1">
-                <Image src={maykolly} 
+                <Image src={commerce} 
                     className="rounded-lg object-cover" 
                     width={"100%"} 
                     height={"100%"} 
