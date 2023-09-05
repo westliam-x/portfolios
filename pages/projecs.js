@@ -121,7 +121,7 @@ function Portfolio(){
         </a>
 
 
-        <a href="https://westliam-x.github.io/fylo/">
+        <a href="https://westliam-x.github.io/maykolly-restaurant/">
             <div className=" basis-1/3 flex-1">
                 <Image src={maykolly} 
                     className="rounded-lg object-cover" 
