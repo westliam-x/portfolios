@@ -123,7 +123,7 @@ function Portfolio(){
 
         <a href="https://westliam-x.github.io/fylo/">
             <div className=" basis-1/3 flex-1">
-                <Image src={Fylo} 
+                <Image src={maykolly} 
                     className="rounded-lg object-cover" 
                     width={"100%"} 
                     height={"100%"} 
