@@ -1,6 +1,6 @@
 import Image from "next/image";
 import crypto from '../public/crypto.png';
-import housing from '../public/housing.png';
+import farm from '../public/farm.png';
 import maykolly from '../public/maykolly-redesigned.png';
 import codeGenerator from '../public/codeGenerator.png';
 import commerce from '../public/tailindCommerce.png';
@@ -9,7 +9,7 @@ import abel from '../public/abel-tee.png'
 import adoption from '../public/adopt.png'
 import ecomm from '../public/ecomm.png'
 import crms from '../public/crms.png'
-import connected from '../public/connected.png'
+import housing2 from '../public/housing.png'
 function Portfolio(){
     return(
     <div>
@@ -27,9 +27,9 @@ function Portfolio(){
        <div className=" flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
         
         
-        <a href = "http://www.connected.net.ng/">
+        <a href = "https://ailanthushospitalityservices.com.ng/"target="_blank" rel="noopener noreferrer">
             <div className=" basis-1/3 flex-1">
-                <Image src={connected} 
+                <Image src={housing2} 
                     className="rounded-lg object-cover" 
                     width={"100%"} 
                     height={"100%"} 
@@ -40,7 +40,7 @@ function Portfolio(){
         
         
         
-        <a href = "https://pet-westliam-x.vercel.app/">
+        <a href = "https://pet-westliam-x.vercel.app/" target="_blank" rel="noopener noreferrer">
             <div className=" basis-1/3 flex-1">
                 <Image src={adoption} 
                     className="rounded-lg object-cover" 
@@ -53,7 +53,7 @@ function Portfolio(){
        
       
        
-         <a href = "http://westliam-projects.buzz/southernview/">
+         {/* <a href = "http://westliam-projects.buzz/southernview/" target="_blank" rel="noopener noreferrer">
             <div className=" basis-1/3 flex-1">
                 <Image src={codeGenerator} 
                     className="rounded-lg object-cover" 
@@ -62,11 +62,11 @@ function Portfolio(){
                     layout="responsive"
                 />
             </div>
-         </a>
+         </a> */}
 
-  <a href = "https://westliam-x.github.io/Aquine/">
+  <a href = "https://ailanthusfarmproducts.com.ng/" target="_blank" rel="noopener noreferrer">
             <div className=" basis-1/3 flex-1">
-                <Image src={housing} 
+                <Image src={farm} 
                     className="rounded-lg object-cover" 
                     width={"100%"} 
                     height={"100%"} 
@@ -74,8 +74,8 @@ function Portfolio(){
                 />
             </div>
         </a>
-
-<a href = "https://ecommerce-landing-page-6oan.vercel.app/">
+{/* 
+<a href = "https://ecommerce-landing-page-6oan.vercel.app/" target="_blank" rel="noopener noreferrer">
             <div className=" basis-1/3 flex-1">
                 <Image src={commerce} 
                     className="rounded-lg object-cover" 
@@ -87,7 +87,7 @@ function Portfolio(){
         </a>
         
                         
-        <a href = "http://westliam-projects.buzz/queensplastic/">                 
+        <a href = "http://westliam-projects.buzz/queensplastic/" target="_blank" rel="noopener noreferrer">                 
             <div className=" basis-1/3 flex-1">
                 <Image src={ecomm} 
                     className="rounded-lg object-cover" 
@@ -96,9 +96,9 @@ function Portfolio(){
                     layout="responsive"
                 />
             </div>
-        </a>
+        </a> */}
 
-        <a href="http://westliam-projects.buzz/crms/">
+        {/* <a href="http://westliam-projects.buzz/crms/" target="_blank" rel="noopener noreferrer">
             <div className=" basis-1/3 flex-1">
                 <Image src={crms} 
                     className="rounded-lg object-cover" 
@@ -107,9 +107,9 @@ function Portfolio(){
                     layout="responsive"
                 />
             </div>
-        </a>            
+        </a>             */}
         
-       <a href = "https://westliam-x.github.io/crypto-landing-page/">
+       <a href = "https://westliam-x.github.io/crypto-landing-page/" target="_blank" rel="noopener noreferrer">
             <div className=" basis-1/3 flex-1">     
                 <Image src={crypto} 
                     className="rounded-lg object-cover" 
@@ -121,7 +121,7 @@ function Portfolio(){
         </a>
 
 
-        <a href="https://westliam-x.github.io/maykolly-restaurant/">
+        {/* <a href="https://westliam-x.github.io/maykolly-restaurant/" target="_blank" rel="noopener noreferrer">
             <div className=" basis-1/3 flex-1">
                 <Image src={maykolly} 
                     className="rounded-lg object-cover" 
@@ -130,9 +130,9 @@ function Portfolio(){
                     layout="responsive"
                 />
             </div>
-        </a>
+        </a> */}
 
-        <a href="https://westliam-x.github.io/abel-tee/">
+        <a href="https://westliam-x.github.io/abel-tee/" target="_blank" rel="noopener noreferrer">
             <div className=" basis-1/3 flex-1">
                 <Image src={abel} 
                     className="rounded-lg object-cover" 
