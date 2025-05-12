@@ -1,10 +1,14 @@
 import Image from "next/image";
-import crypto from "../public/crypto.png";
+import sierra from "../public/sierra-portfolio.png";
 import farm from "../public/farm.png";
-import studentHub from "../public/studenthub360.png";
+import maitanmi from "../public/maitami-portfolio.png";
 import abel from "../public/abel-tee.png";
 import adoption from "../public/adopt.png";
 import housing2 from "../public/housing.png";
+import siwes from "../public/siwes-portfolio.png";
+import tedx from "../public/tedx-portfolio.png";
+import manual from "../public/manual-portfolio.png";
+import blaaiz from "../public/blaaiz-portfolio.png";
 
 function Portfolio() {
   return (
@@ -25,6 +29,22 @@ function Portfolio() {
       </div>
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
         <a
+          href="https://www.blaaiz.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="basis-1/3 flex-1">
+            <Image
+              src={blaaiz}
+              className="rounded-lg object-cover"
+              width={"100%"}
+              height={"100%"}
+              layout="responsive"
+              loading="lazy"
+            />
+          </div>
+        </a>
+        <a
           href="https://ailanthushospitalityservices.com.ng/"
           target="_blank"
           rel="noopener noreferrer"
@@ -41,14 +61,47 @@ function Portfolio() {
           </div>
         </a>
 
+        
         <a
-          href="https://pet-westliam-x.vercel.app/"
+          href="https://chw-manual.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <div className="basis-1/3 flex-1">
             <Image
-              src={adoption}
+              src={manual}
+              className="rounded-lg object-cover"
+              width={"100%"}
+              height={"100%"}
+              layout="responsive"
+              loading="lazy"
+            />
+          </div>
+        </a>
+        <a
+          href="https://tedxbabcock.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="basis-1/3 flex-1">
+            <Image
+              src={tedx}
+              className="rounded-lg object-cover"
+              width={"100%"}
+              height={"100%"}
+              layout="responsive"
+              loading="lazy"
+            />
+          </div>
+        </a>
+        <a
+          href="https://siwes-fe.onrender.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="basis-1/3 flex-1">
+            <Image
+              src={siwes}
               className="rounded-lg object-cover"
               width={"100%"}
               height={"100%"}
@@ -75,13 +128,13 @@ function Portfolio() {
         </a>
 
         <a
-          href="https://www.studenthub360.software/"
+          href="https://dr-maitanmi.onrender.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <div className="basis-1/3 flex-1">
             <Image
-              src={studentHub}
+              src={maitanmi}
               className="rounded-lg object-cover"
               width={"100%"}
               height={"100%"}
@@ -92,13 +145,13 @@ function Portfolio() {
         </a>
 
         <a
-          href="https://westliam-x.github.io/crypto-landing-page/"
+          href="https://helios-web-staging-2.up.railway.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <div className="basis-1/3 flex-1">
             <Image
-              src={crypto}
+              src={sierra}
               className="rounded-lg object-cover"
               width={"100%"}
               height={"100%"}
@@ -116,6 +169,23 @@ function Portfolio() {
           <div className="basis-1/3 flex-1">
             <Image
               src={abel}
+              className="rounded-lg object-cover"
+              width={"100%"}
+              height={"100%"}
+              layout="responsive"
+              loading="lazy"
+            />
+          </div>
+        </a>
+
+        <a
+          href="https://pet-westliam-x.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="basis-1/3 flex-1">
+            <Image
+              src={adoption}
               className="rounded-lg object-cover"
               width={"100%"}
               height={"100%"}
