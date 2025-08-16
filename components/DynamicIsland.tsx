@@ -34,20 +34,18 @@ export function DynamicIslandDesktop() {
 
   useEffect(() => {
     controls.start({
-      y: [0, -6, 0, -3, 0],
-      transition: { duration: 12, repeat: Infinity, ease: "easeInOut" },
+      y: [0, -10, 0, 5, 0],
+      transition: { duration: 8, repeat: Infinity, ease: "easeInOut" },
     });
   }, [controls]);
 
   return (
     <motion.div
       animate={controls}
-      // ⬇️ Centered horizontally, positioned near the top (not screen middle)
       className="pointer-events-none fixed left-48 top-4 z-40 hidden -translate-x-1/2 md:block w-[min(92%,1100px)] mt-2"
     >
       <div className="pointer-events-auto rounded-island glass shadow-glow shadow-glow2 overflow-hidden">
         <div className="flex items-center justify-between gap-3 px-6 py-3">
-          {/* Identity */}
           <div className="flex items-center gap-3">
             <div className="rounded-island glass px-3 py-1.5 text-sm font-semibold">W</div>
             <div className="text-sm">
@@ -110,8 +108,8 @@ export function DynamicIslandMobile() {
 
   useEffect(() => {
     controls.start({
-      y: [0, -4, 0, -2, 0],
-      transition: { duration: 10, repeat: Infinity, ease: "easeInOut" },
+      y: [0, -12, 0, 5, 0],
+      transition: { duration: 8, repeat: Infinity, ease: "easeInOut" },
     });
   }, [controls]);
 
