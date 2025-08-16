@@ -2,14 +2,26 @@
 
 import { motion } from "framer-motion";
 import { PERSONAL, SOCIALS } from "@/data/content";
-import { FaGithub, FaLinkedin, FaGlobe, FaEnvelope } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaGlobe,
+  FaEnvelope,
+  FaDownload,
+} from "react-icons/fa";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
   show: (i = 0) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: 0.08 * i, duration: 0.5, type: "spring", stiffness: 220, damping: 24 },
+    transition: {
+      delay: 0.08 * i,
+      duration: 0.5,
+      type: "spring",
+      stiffness: 220,
+      damping: 24,
+    },
   }),
 };
 
@@ -33,7 +45,9 @@ export function Hero() {
         >
           {PERSONAL.name} <span className="opacity-60">“{PERSONAL.alias}”</span>
           <br />
-          <span className="text-ink">I build calm, fast, lovable interfaces.</span>
+          <span className="text-ink">
+            I build calm, fast, lovable interfaces.
+          </span>
         </motion.h1>
 
         <motion.p
@@ -55,12 +69,26 @@ export function Hero() {
           variants={fadeUp}
           className="flex flex-wrap items-center gap-3"
         >
-          <a href="#case-studies" className="rounded-xl bg-white/10 hover:bg-white/15 px-5 py-3">
+          <a
+            href="#case-studies"
+            className="rounded-xl bg-white/10 hover:bg-white/15 px-5 py-3"
+          >
             See work
           </a>
-          <a href={`mailto:${PERSONAL.email}`} className="rounded-xl border border-white/10 hover:bg-white/5 px-5 py-3">
+          <a
+            href={`mailto:${PERSONAL.email}`}
+            className="rounded-xl border border-white/10 hover:bg-white/5 px-5 py-3"
+          >
             Say hello
           </a>
+          <a
+            href="/Emelifonwu-William-Resume.pdf"
+            download
+            className="inline-flex items-center gap-2 rounded-xl bg-accent-cyan/20 hover:bg-accent-cyan/30 px-5 py-3"
+          >
+            <FaDownload /> Resume
+          </a>
+
           <div className="flex items-center gap-3 ml-2">
             {SOCIALS.map((s) => (
               <a
