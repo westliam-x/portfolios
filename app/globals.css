@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+html, body, #__next {
+  height: 100%;
+  background: radial-gradient(1000px 600px at 10% 0%, rgba(34,211,238,0.06), transparent 60%),
+              radial-gradient(800px 500px at 90% 10%, rgba(244,114,182,0.06), transparent 60%),
+              #0b0f14;
+}
+
+* { scroll-behavior: smooth; }
+
+/* Subtle grain */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url('/grain.png');
+  opacity: .14;
+  pointer-events: none;
+  mix-blend-mode: soft-light;
+}
+
+/* Focus rings */
+:where(a, button, [role="button"]) {
+  @apply outline-none focus-visible:ring-2 focus-visible:ring-accent-cyan/60 focus-visible:ring-offset-0;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.section {
+  @apply container py-24 md:py-32;
+}
+
+.glass {
+  @apply bg-bg-softer/50 backdrop-blur-xl border border-white/5;
+}
