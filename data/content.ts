@@ -12,7 +12,7 @@ export const PERSONAL = {
 export const SOCIALS = [
   { name: "GitHub", icon: "github", href: "https://github.com/westliam-x" },
   { name: "LinkedIn", icon: "linkedin", href: "https://www.linkedin.com/in/william-emelifonwu/" },
-  { name: "Portfolio", icon: "globe", href: "https://westliam-portfolio.vercel.app/" },
+  // { name: "Portfolio", icon: "globe", href: "https://westliam-portfolio.vercel.app/" },
   { name: "Email", icon: "mail", href: "mailto:emelifonwuw@gmail.com" },
 ];
 
