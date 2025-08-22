@@ -93,7 +93,7 @@ export const PROJECTS: Project[] = [
       "Lag-tolerant game state with WebSockets",
       "Player dashboards: balance, history, leaderboards",
     ],
-    link: "https://westliam-portfolio.vercel.app/",
+    link: "https://skyboardgames.com//",
     repo: "https://github.com/westliam-x",
     image: "/skyboard.png",
   },
